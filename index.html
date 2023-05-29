@@ -1,0 +1,179 @@
+
+<html>
+    <head>
+        <title>Website Testing</title>
+        <link rel= "stylesheet" href="style.css">
+        <script>  
+        alert("WARNING: blinding white text incoming. Proceed with caution :)");
+        </script>     
+    </head>
+    <body>
+        <script>
+            function myFunction() {
+              alert("Hello! I am an alert box!");
+            }
+            </script>
+        <div class="bannerimage">
+            <div class="navbar">
+                <img src="" class="">
+                <ul>
+                    <li><a href= "#home">Home</a></li>
+                    <li><a href= "#ipaddress">IP Address</a></li>
+                    <li><a href= "#subnet">Subnet</a></li>
+                    <li><a href= "#hostnetwork">Host & Network</a></li>
+                    <li><a href= "#cidr">CIDR</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class= "content"> 
+            <h1>Computer Networks Blog</h1>
+            <p><br> Explains about IP address, IPV4, subnetting,</br> split subnets, subnet masks, host address, </br> network address, and CIDR notation.
+            <br>
+            <br>
+            <h4>Click below for more info!</p></h4></p>
+            <div> 
+                 <a href= https://docs.google.com/document/d/1ZfL5NuTX9egxeatSQtDlArd6QCVg66PwFKMPN7KJ1sU/edit?usp=sharing><button type="button"><span></span>Learn more</button></a href>
+            </div>
+        </div>
+
+    <section id= "ipaddress">
+        <div class="bannerimage2">
+            <div class="navbar">
+                <img src="" class="">
+            </div>
+        </div>
+            <div class="content2">
+                <p>
+                    <h3>What is an IP address?</h3>
+                    <br>
+                    An IP address is an identifier for a device that is connected to a network that uses the internet protocol. <br>It serves to route data packets across networks which allows devices to communicate with each other.<br>
+                    There are two types of IP address: IPV4 and IPV6 where IPv4 is a series of numbers separated by <br> periods while IPV6 is a series of numbers and letters separated by colons. This blog will only discuss 
+                    <br>IPV4 thoroughly as it is the most common type of IP address used nowadays.
+                    <br>
+                    <br>
+                    <br>
+                    <h3>What is the IPV4 notation?</h3>
+                    <br>
+                    An IPV4 address is a 32 binary bit address written as four numbers separated by periods.<br>
+                    It is used to express the identifier of a device. The 32 bits are split into four groups <br>
+                    of numbers and each group represents an 8-bit segment called an octet. When converted <br>
+                    from bits to decimal, the number range in each octet is from 0 to 255.<br>
+                    An example of an IPV4 address is 192.168.10.128. 
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Back to IP addresses!</h3>
+                    <br>
+                    IP addresses consists of a network part and a host part so that networks can <br>
+                    be logically broken down into smaller networks called subnets<br>
+                    (smaller networks within a large network).
+                </p>
+            </div>
+
+    <section id= "subnet">
+        <div class="bannerimage3">
+            <div class="navbar">
+                <img src="" class="">
+            </div>
+        </div>
+            <div class="content3">
+                <br>
+                <h3>What is subnetting?</h3>
+                <br>
+                The process of breaking one big network down into smaller networks is called subnetting.<br>
+                Subnetting is achieved by changing the default subnet mask by borrowing some bits from the host portion<br>
+                of an IP address to create more available networks. The default subnet mask for each IP address class are listed below:<br>
+                <br>
+                <br>
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th>Class A</th>
+                            <th>Class B</th>
+                            <th>Class C</th>
+                          </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>255.0.0.0</td>
+                            <td>255.255.0.0</td>
+                            <td>255.255.255.0</td>
+                          </tr>
+                    </tbody>
+                    
+                </table>
+                <br>
+                <br>
+            <p>
+                <h3>What is a subnet mask?</h3>
+                <br>
+                The subnet mask is 32 bit long. A subnet mask is assigned along with an IP address<br>
+                represented in dotted decimal format. A subnet mask identifies which part of the IP address<br>
+                relates to the network and which relates to the host. If we convert the decimals back into bits,
+                <br> we can see which bits of the IP is allocated to the network and which are allocated to the host.<br>
+                <br>
+                <h4>For example:</h4>
+                A subnet mask of 255.255.255.0 to bits will be<br>
+                11111111.11111111.11111111.00000000<br> The 1's represents the network portion
+                <br>while the 0’s represents the host portion. <br>
+                <br>
+            </p>
+
+            <div>
+        </div>
+        </div>
+    <section id= "hostnetwork">
+        <div class="bannerimage4">
+            <div class="navbar">
+                <img src="" class="">
+            </div>
+        </div>
+            <div class="content4">
+                <p>
+                    <h3>What is host address?</h3>
+                    <br>
+                    The host address specifies the individual device within that network.<br>
+                    It represents as a unique identifier assigned to each device which can be<br>
+                    obtained by taking the remaining bits of the IP address after the network<br>
+                    portion has been determined. 
+                    <br><br>
+                    <h4>For example:</h4>
+                    A subnet mask of 255.255.255.0 to bits will be<br>
+                    11111111.11111111.11111111.00000000<br> The 1's represents the network portion
+                    <br>while the 0’s represents the host portion. <br>
+                    <br><br>
+                    <h3>What is network address?</h3>
+                    <br>
+                    The network address specifies the network, it represents as an identifier<br>
+                    for a specific network / subnet. It is obtained by applying a subnet mask<br>
+                    to an IP address which determines the network segment to which the device belongs.<br>
+                    <br>
+
+
+                </p>
+            <div> 
+            </div>
+            </div>
+    <section id= "cidr">
+            <div class="bannerimage5">
+                <div class="navbar">
+                    <img src="" class="">
+                </div>
+            </div>
+                <div class="content5">
+                        <h3>What is CIDR?</h3>
+                        <br>
+                        <br>
+                        <p>Remember about subnet mask? It can also be expressed in a different method<br>
+                            called a as CIDR(Classless Inter-Domain Routing) or slash notation.<br>
+                            255.255.255.0 subnet mask if expressed to CIDR will be a /24.<br>
+                            This means that the subnet mask is 24 bits in length meaning it has 24 of 1’s.<br>
+                            If the subnet mask is 255.255.255.192, then the CIDR is equivalent to /26.
+                        </p>
+                <div> 
+            </div>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>

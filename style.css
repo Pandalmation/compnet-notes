@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bannerimage{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(31, 38, 48, 0.75),rgba(0, 0, 0, 0.6)), url(https://wallpapers.com/images/hd/night-sky-moon-anime-4k-wehiyu9iynxgy6ob.jpg);
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+.bannerimage2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(31, 38, 48, 0.75),rgba(0, 0, 0, 0.6)), url(https://images.wallpapersden.com/image/download/anime-night-digital-art-hd-landscape_bWdnaG6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+.bannerimage3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(31, 38, 48, 0.75),rgba(0, 0, 0, 0.6)), url(https://e0.pxfuel.com/wallpapers/475/267/desktop-wallpaper-anime-city-background-t-city-hunter-anime.jpg);
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+.bannerimage4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(31, 38, 48, 0.75),rgba(0, 0, 0, 0.6)), url(https://e1.pxfuel.com/desktop-wallpaper/772/286/desktop-wallpaper-blue-anime-scenery-dark-blue-anime.jpg);
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+.bannerimage5{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(31, 38, 48, 0.75),rgba(0, 0, 0, 0.6)), url(https://e1.pxfuel.com/desktop-wallpaper/614/829/desktop-wallpaper-blue-anime-city.jpg);
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto; 
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px; 
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative; 
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #b1dcff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80xpx;
+}
+
+.content p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.content2{
+    width: 100%;
+    position: absolute;
+    top: 150%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+
+}
+
+.content3{
+    width: 100%;
+    position: absolute;
+    top: 250%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+}
+
+.content4{
+    width: 100%;
+    position: absolute;
+    top: 350%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+}
+
+.content5{
+    width: 100%;
+    position: absolute;
+    top: 450%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+}
+
+.content-table{
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 25px, 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    color: #fff;
+}
+
+.content-table thead tr{
+    background-color: rgb(49, 90, 123);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+
+.content3{
+    width: 100%;
+    position: absolute;
+    top: 250%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff; 
+
+}
+
+
+.content2 h1{
+    font-size: 70px;
+    margin-top: 80xpx;
+}
+
+.content2 p{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #5694ff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+
+}
+
+span{
+    background: rgb(42, 152, 255);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+
+}
+
+button:hover {
+    border: none;
+}
+
+#feature{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.about-me-text{
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.about-me-text p{
+    margin: auto;
+    font: 20px;
+    color: #b33535;
+    font-weight: bold;
+}
+
+.about-me-box{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center ;
+    text-align: center;
+}
+.about-me-content{
+    flex-basis: 50%;
+
+}
+
+.about-me-img{
+    flex-basis: 50%;
+    margin: auto;
+
+}
+
+.about-me-img img{
+     width: 70%;
+     border-radius: 10px;
+}
+
